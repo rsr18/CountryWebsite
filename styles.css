@@ -1,0 +1,65 @@
+/* 
+
+sleector {
+
+    propterty: value;
+    propterty: value;
+    propterty: value;
+}
+
+
+tagname -> select all tags of a given type
+.classname -> select all tags that have a givin class
+tagname.classname -> select ONLY tags that are ALSO a given class
+
+> -> child symbol
+
+tagname>tagname -> select children of a given type
+.classname>tagname -> select children of a given type
+tagname>.classname -> select children of a given class
+.classname.classname -> select children of a given class
+
+*/
+
+.nav {
+    border-style: inset;
+
+    width: 50%;
+    margin: auto;
+    
+}
+
+.nav>li {
+
+border-style: ridge;
+
+
+}
+
+
+.text {
+
+    font-family: Arial, Helvetica, sans-serif;
+background-color: red ;
+
+   border-style: solid
+
+}
+
+
+
+img {
+
+
+    max-width: 200px;
+    max-height: 200px;
+
+
+
+}
+
+
+
+
+
+
